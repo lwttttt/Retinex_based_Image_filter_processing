@@ -8,7 +8,8 @@ Adaptive filtering is a filtering method that automatically adjusts filter param
   2. The Retinex theory is used to enhance the gamma-corrected image and improve contrast.
   3. Adaptive filtering is applied to the enhanced image to remove noise and blur while preserving detail information.
   4. Finally, inverse gamma correction is performed to restore the output image to its original brightness level.
-#Chinese version
+
+#################3#Chinese version###############
 自适应滤波是一种根据局部像素变化自动调整滤波器参数的滤波方法，可以用于水下图像的复原。一种自适应滤波的水下图像复原方法是基于Retinex理论和伽马校正，具体步骤如下： 
   1. 对水下图像进行伽马校正，以减小图片的亮度失真； 
   2. 利用Retinex理论对伽马校正后的图像进行增强，提高对比度； 
